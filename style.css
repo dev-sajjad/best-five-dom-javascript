@@ -1,0 +1,15 @@
+.player-section {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    justify-content: center;
+}
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+button[disabled]:hover {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
